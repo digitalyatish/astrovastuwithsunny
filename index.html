@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Astro Vastu with Sunny — Solutions (V9.7)</title>
+  <meta name="description" content="AstroVastu Solutions by Sunny: practical Vastu analysis, gridding, and remedies with simple pricing." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50:'#FFF9EC',100:'#FDF0CC',200:'#F9E090',300:'#F6D46E',400:'#F9D368',500:'#F6C34D',600:'#E8AB31',700:'#D2911E',800:'#B97714',900:'#9A630F' },
+            navy: '#0E1B3D', slatey: '#475569', sky:'#E7F0FF', mint:'#E8FFF2', butter:'#FEF4D8'
+          },
+          boxShadow: { smooth: '0 10px 30px -10px rgba(0,0,0,.25)' },
+          fontFamily: { sans: ['Inter','system-ui','ui-sans-serif','Segoe UI','Roboto','Helvetica','Arial','Apple Color Emoji','Segoe UI Emoji'] }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .no-scrollbar::-webkit-scrollbar{display:none}
+    .no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}
+    /* Ultra‑light pattern intensities */
+    .gridlines{background-image: linear-gradient(rgba(14,27,61,.015) 1px, transparent 1px), linear-gradient(90deg, rgba(14,27,61,.012) 1px, transparent 1px); background-size: 30px 30px, 30px 30px;}
+    .dotfield{background-image: radial-gradient(rgba(0,0,0,.015) 1px, transparent 1.8px); background-size: 20px 20px;}
+    .chevrons{background-image: linear-gradient(135deg, rgba(14,27,61,.015) 25%, transparent 25%), linear-gradient(225deg, rgba(14,27,61,.015) 25%, transparent 25%), linear-gradient(315deg, rgba(14,27,61,.015) 25%, transparent 25%), linear-gradient(45deg, rgba(14,27,61,.015) 25%, transparent 25%);background-size:16px 16px;background-position:0 0,8px 0,8px -8px,0px 8px}
+  </style>
+</head>
+<body class="min-h-screen chevrons bg-white text-navy font-sans selection:bg-brand-400/40">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-[#071B2F] text-white border-b border-white/10">
+    <div class="mx-auto max-w-7xl h-16 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3" aria-label="Go to top">
+        <img src="https://astrovastuwithsunny.in/wp-content/uploads/2025/06/Sunny_Logo-removebg-preview.png" alt="AstroVastu with Sunny" class="h-16 sm:h-20 md:h-24 w-auto -my-4 object-contain drop-shadow-xl brightness-150 contrast-150 saturate-150 bg-white rounded-2xl p-2 ring-2 ring-white/80 shadow" />
+        <span class="sr-only">Astro Vastu with Sunny</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-[15px] text-white/80">
+        <a href="#problems" class="hover:text-white">Problems</a>
+        <a href="#solutions" class="hover:text-white">Solutions</a>
+        <a href="#guide" class="hover:text-white">Meet Your Guide</a>
+        <a href="#pricing" class="hover:text-white">Pricing</a>
+        <a href="#faq" class="hover:text-white">FAQs</a>
+      </nav>
+      <div class="hidden sm:flex items-center gap-2">
+        <a href="https://www.instagram.com/astrovastu_withsunny/" target="_blank" rel="noopener" aria-label="Instagram"
+           class="inline-flex items-center gap-2 px-3 py-2 rounded-xl text-white/90 border border-white/20 hover:bg-white/10">
+          <span class="text-sm font-medium">Instagram</span>
+        </a>
+        <a href="https://wa.me/?text=Hi%20Sunny%2C%20I%27d%20like%20to%20book%20a%20Vastu%20consultation%20from%20the%20Solutions%20page." target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#25D366] text-[#071B2F] border border-emerald-300/20 font-semibold hover:brightness-110">Book Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="py-10 sm:py-14">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="relative overflow-hidden rounded-[28px] border border-[#E6E8EF] bg-white shadow-smooth">
+        <div class="pointer-events-none absolute inset-x-0 top-0 h-1/2 gridlines"></div>
+        <div class="pointer-events-none absolute bottom-0 left-0 right-0 h-[46%]">
+          <svg viewBox="0 0 1440 350" class="absolute inset-0 h-full w-full text-brand-300" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0,260 C240,360 560,120 840,220 C1120,320 1280,260 1440,210 L1440,350 L0,350 Z"></path></svg>
+          <div class="absolute inset-0 dotfield opacity-10"></div>
+        </div>
+        <div class="relative px-6 sm:px-10 pt-12 sm:pt-16 pb-20 text-center">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-navy">Transform Your Home, Transform Your Life</h1>
+          <p class="mt-4 max-w-3xl mx-auto text-slatey text-lg sm:text-xl">Practical Vastu solutions designed for every family. Affordable, authentic and step‑by‑step so you can finally see the magic in your own life.</p>
+        </div>
+        <!-- badges -->
+        <div class="relative px-4 sm:px-8 pb-8">
+          <div class="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 max-w-6xl">
+            <div class="flex items-center gap-3 rounded-2xl bg-gradient-to-tr from-brand-600 to-brand-400 text-white px-5 py-4 ring-1 ring-white/60 shadow">
+              <span class="text-lg">⭐</span>
+              <div class="leading-tight"><div class="text-sm/5 opacity-90">Rating</div><div class="text-xl font-extrabold">4.89 Rated</div></div>
+            </div>
+            <div class="flex items-center gap-3 rounded-2xl bg-gradient-to-tr from-brand-600 to-brand-400 text-white px-5 py-4 ring-1 ring-white/60 shadow">
+              <span class="text-lg">👥</span>
+              <div class="leading-tight"><div class="text-sm/5 opacity-90">Community</div><div class="text-xl font-extrabold">650+ Families Served</div></div>
+            </div>
+            <div class="flex items-center gap-3 rounded-2xl bg-gradient-to-tr from-brand-600 to-brand-400 text-white px-5 py-4 ring-1 ring-white/60 shadow">
+              <span class="text-lg">🧭</span>
+              <div class="leading-tight"><div class="text-sm/5 opacity-90">Precision</div><div class="text-xl font-extrabold">True‑North Aligned Maps</div></div>
+            </div>
+            <div class="flex items-center gap-3 rounded-2xl bg-gradient-to-tr from-brand-600 to-brand-400 text-white px-5 py-4 ring-1 ring-white/60 shadow">
+              <span class="text-lg">🌏</span>
+              <div class="leading-tight"><div class="text-sm/5 opacity-90">Projects • India & Overseas</div><div class="text-xl font-extrabold">1200+ Projects</div></div>
+            </div>
+            <div class="flex items-center gap-3 rounded-2xl bg-gradient-to-tr from-brand-600 to-brand-400 text-white px-5 py-4 ring-1 ring-white/60 shadow">
+              <span class="text-lg">🎓</span>
+              <div class="leading-tight"><div class="text-sm/5 opacity-90">Mentorship</div><div class="text-xl font-extrabold">400+ Students Mentored</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REAL STRUGGLES -->
+  <section id="problems" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-4xl font-extrabold text-navy inline-flex items-end gap-3">Real Struggles <span class="block h-2 w-24 rounded-full bg-brand-500 translate-y-3"></span></h2>
+      </div>
+      <div class="mt-10 grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <!-- Large left card -->
+        <article class="lg:col-span-7 rounded-[28px] bg-white border border-[#E6E8EF] shadow-smooth p-6 sm:p-8">
+          <div class="flex items-start gap-4">
+            <div class="h-12 w-12 rounded-2xl bg-butter grid place-items-center text-2xl">🧭</div>
+            <div>
+              <h3 class="text-2xl font-extrabold text-navy">No true‑north map, no clarity</h3>
+              <p class="mt-2 text-slatey">Without precise orientation, every remedy becomes guesswork. We start by fixing direction and creating a to‑scale digital map.</p>
+              <ul class="mt-4 space-y-2 text-slatey list-disc pl-5">
+                <li>Correct Brahmasthan and degree alignment</li>
+                <li>Zone mapping you can actually use</li>
+                <li>Ready for gridding and analysis</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <!-- Right column, two stacked cards -->
+        <div class="lg:col-span-5 grid grid-rows-2 gap-6">
+          <article class="rounded-[28px] bg-white border border-[#E6E8EF] shadow-smooth p-6 sm:p-8">
+            <div class="flex items-start gap-4">
+              <div class="h-12 w-12 rounded-2xl bg-sky grid place-items-center text-2xl">🧩</div>
+              <div>
+                <h3 class="text-xl font-extrabold text-navy">Conflicting advice everywhere</h3>
+                <p class="mt-2 text-slatey">We decode principles into clear, step‑by‑step actions for your exact plan—no generic fixes.</p>
+              </div>
+            </div>
+          </article>
+          <article class="rounded-[28px] bg-white border border-[#E6E8EF] shadow-smooth p-6 sm:p-8">
+            <div class="flex items-start gap-4">
+              <div class="h-12 w-12 rounded-2xl bg-mint grid place-items-center text-2xl">🧪</div>
+              <div>
+                <h3 class="text-xl font-extrabold text-navy">Tried remedies, no results</h3>
+                <p class="mt-2 text-slatey">Order matters. We fix leakages and negative triggers first, then activate positives—zero demolition.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS (accordion, UPDATED) -->
+  <section id="solutions" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mb-8">
+        <h2 class="text-4xl font-extrabold text-navy inline-flex items-end gap-3">Pick the Solution You Need <span class="block h-2 w-24 rounded-full bg-brand-500 translate-y-3"></span></h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-5">
+          <div class="relative rounded-[28px] border border-[#E6E8EF] bg-butter p-6 sm:p-8">
+            <svg viewBox="0 0 440 360" class="w-full h-auto" aria-hidden="true">
+              <rect x="20" y="40" width="400" height="260" rx="18" fill="#FFF" stroke="#E6E8EF"/>
+              <rect x="60" y="80" width="80" height="70" rx="10" fill="#FDF0CC"/>
+              <rect x="170" y="80" width="210" height="26" rx="6" fill="#F6C34D"/>
+              <rect x="170" y="120" width="210" height="18" rx="5" fill="#E7F0FF"/>
+              <rect x="60" y="170" width="320" height="20" rx="5" fill="#F9E090"/>
+              <rect x="60" y="200" width="320" height="20" rx="5" fill="#E8FFF2"/>
+              <circle cx="360" cy="280" r="40" fill="#F6C34D"/>
+              <rect x="110" y="240" width="220" height="60" rx="14" fill="#0E1B3D"/>
+              <text x="220" y="276" text-anchor="middle" font-size="18" fill="#fff">Zero Demolition</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-4" id="acc-root">
+          <!-- PLAN 1 (unchanged) -->
+          <article class="rounded-[28px] border border-[#E6E8EF] bg-butter" data-acc>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 acc-head" aria-expanded="true">
+              <div>
+                <div class="text-xs tracking-widest text-navy/70 font-semibold">PLAN 1 | ₹ 2,999</div>
+                <h3 class="mt-1 text-2xl font-extrabold">Digital Map Drafting</h3>
+              </div>
+              <span class="text-2xl leading-none acc-icon">×</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 acc-body">
+              <ul class="list-disc pl-5 text-slatey space-y-2">
+                <li>To‑scale, true‑direction map</li>
+                <li>Delivered within 48 hours</li>
+                <li>Includes Advanced Devta Gridding</li>
+              </ul>
+              <a href="https://wa.me/?text=Hi%20Sunny%2C%20I%27d%20like%20to%20book%20a%20Vastu%20consultation%20for%20my%20home." target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-[#25D366] text-[#071B2F] font-semibold">Book Consultation</a>
+            </div>
+          </article>
+
+          <!-- PLAN 2 UPDATED -->
+          <article class="rounded-[28px] border border-[#E6E8EF] bg-sky" data-acc>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 acc-head" aria-expanded="false">
+              <div>
+                <div class="text-xs tracking-widest text-navy/70 font-semibold">PLAN 2 | ₹ 499 / FLOOR</div>
+                <h3 class="mt-1 text-2xl font-extrabold">Basic Vastu Gridding</h3>
+              </div>
+              <span class="text-2xl leading-none acc-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden acc-body">
+              <ul class="list-disc pl-5 text-slatey space-y-2">
+                <li>Accurate <strong>Brahmasthan</strong> marking</li>
+                <li>True degree alignment (<em>verified via Google Earth Pro</em>)</li>
+                <li>8/16/32 zone mapping with <strong>bar charts</strong></li>
+                <li><strong>Marmsthan</strong> image</li>
+                <li><strong>Vedic planet</strong> zoning</li>
+                <li><strong>Elemental zones</strong> report</li>
+                <li><strong>Deliverable:</strong> PDF (high‑resolution) + image overlays</li>
+              </ul>
+              <a href="https://rzp.io/rzp/zteFZeO" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-500 text-navy font-semibold">Pay Now</a>
+            </div>
+          </article>
+
+          <!-- PLAN 3 UPDATED -->
+          <article class="rounded-[28px] border border-[#E6E8EF] bg-mint relative" data-acc>
+            <span class="absolute -top-3 right-6 text-xs px-2 py-1 rounded-full bg-brand-500 text-navy font-bold">Popular</span>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 acc-head" aria-expanded="false">
+              <div>
+                <div class="text-xs tracking-widest text-navy/70 font-semibold">PLAN 3 | ₹ 999 / FLOOR</div>
+                <h3 class="mt-1 text-2xl font-extrabold">Advanced Devta Gridding</h3>
+              </div>
+              <span class="text-2xl leading-none acc-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden acc-body">
+              <ul class="list-disc pl-5 text-slatey space-y-2">
+                <li>Accurate <strong>Brahmasthan</strong> marking</li>
+                <li>True degree alignment (<em>verified via Google Earth Pro</em>)</li>
+                <li>8/16/32 zone mapping with <strong>bar charts</strong></li>
+                <li>45 <strong>Devta pada</strong> marking with Devta <strong>bar chart</strong></li>
+                <li><strong>Nakshatra Chakra</strong> integration</li>
+                <li><strong>Marmsthan</strong> image</li>
+                <li><strong>Vedic planet</strong> Zoning</li>
+                <li><strong>Tri‑Dosha</strong> mapping</li>
+                <li><strong>Body‑part analysis</strong> report</li>
+                <li><strong>Elemental zones</strong> report</li>
+                <li><strong>Deliverable:</strong> PDF (high‑resolution) + image overlays</li>
+              </ul>
+              <a href="https://rzp.io/rzp/MEMawjzP" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-500 text-navy font-semibold">Pay Now</a>
+            </div>
+          </article>
+
+          <!-- PLAN 4 UPDATED -->
+          <article class="rounded-[28px] border border-[#E6E8EF] bg-butter" data-acc>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 acc-head" aria-expanded="false">
+              <div>
+                <div class="text-xs tracking-widest text-navy/70 font-semibold">PLAN 4 | ₹ 4,999 / FLOOR</div>
+                <h3 class="mt-1 text-2xl font-extrabold">Vastu Analysis Report</h3>
+              </div>
+              <span class="text-2xl leading-none acc-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden acc-body">
+              <ul class="list-disc pl-5 text-slatey space-y-2">
+                <li>Complete diagnosis mapped to life areas: <em>career, money, health, relationships</em></li>
+                <li>Treatment guidance for negative entrances, toilets, and kitchen placement — <strong>clear instruction, no confusion</strong></li>
+                <li>Balancing and cleansing remedies with practical steps</li>
+                <li>Placement of <strong>12 essential remedies</strong></li>
+                <li><strong>10 key Vastu instructions</strong> for ongoing balance</li>
+                <li><strong>6 Vastu‑compliant</strong> images (HD soft copy) with outlined priorities</li>
+                <li><strong>Priority matrix</strong> and <strong>bar‑chart of imbalances</strong> for clarity</li>
+                <li class="mt-3">Plus these valuable reports:</li>
+                <ul class="list-[square] pl-8 text-slatey space-y-1 mt-1">
+                  <li>Accurate <strong>Brahmasthan</strong> marking</li>
+                  <li>True degree alignment (<em>verified via Google Earth Pro</em>)</li>
+                  <li>8/16/32 zone mapping with <strong>bar charts</strong></li>
+                  <li>45 <strong>Devta pada</strong> marking with Devta <strong>bar chart</strong></li>
+                  <li><strong>Marmsthan</strong> image</li>
+                  <li><strong>Vedic planet</strong> Zoning & Elemental zones report</li>
+                  <li><strong>Deliverable:</strong> PDF (high‑resolution) + image overlays</li>
+                </ul>
+              </ul>
+              <a href="https://rzp.io/rzp/9Q8qcBm9" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-500 text-navy font-semibold">Pay Now</a>
+            </div>
+          </article>
+
+          <!-- PLAN 5 UPDATED -->
+          <article class="rounded-[28px] border border-[#E6E8EF] bg-sky" data-acc>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 acc-head" aria-expanded="false">
+              <div>
+                <div class="text-xs tracking-widest text-navy/70 font-semibold">PLAN 5 | ₹ 7,499 / FLOOR</div>
+                <h3 class="mt-1 text-2xl font-extrabold">Vastu Analysis Report + Remedies</h3>
+              </div>
+              <span class="text-2xl leading-none acc-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden acc-body">
+              <ul class="list-disc pl-5 text-slatey space-y-2">
+                <li>Complete diagnosis mapped to life areas: <em>career, money, health, relationships</em></li>
+                <li>Treatment guidance for negative entrances, toilets, and kitchen placement — <strong>clear instruction, no confusion</strong></li>
+                <li>Balancing and cleansing remedies with practical steps</li>
+              </ul>
+              <div class="mt-4 text-navy font-extrabold">Essential Remedy Kit includes:</div>
+              <ul class="list-disc pl-5 text-slatey space-y-2 mt-2">
+                <li><strong>Cleansing:</strong> Vastu Salt, Bheemseni Kapoor & tapes to treat negative entrances & toilets</li>
+                <li><strong>Protection:</strong> Black potli + (Fitkari), Brass Trishakti, Brass Swastik & Brass OM</li>
+                <li><strong>Stability & Strength:</strong> Yellow potli (mustard), Yellow cloth for the Ancestral pot remedy</li>
+                <li><strong>Finance Activation:</strong> Brass diya, Red potli, Copper Shree Yantra</li>
+                <li>8 copper <strong>Ashta‑Dikpal Yantras</strong></li>
+                <li>10 key Vastu instructions for ongoing balance</li>
+                <li>6 Vastu‑compliant images (HD soft copy) and outlined priorities</li>
+              </ul>
+              <div class="mt-4 text-slatey"><strong>Deliverables:</strong> Slide‑style PDF with remedy matrix, zone‑wise placements, and a printable checklist <em>with Premium Devta Report</em></div>
+              <div class="mt-2 text-slatey"><strong>Bonus:</strong> Remedy placement video + walkthrough on Call/Zoom</div>
+              <a href="https://rzp.io/rzp/xaURZaXr" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-500 text-navy font-semibold">Pay Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEET YOUR GUIDE -->
+  <section id="guide" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-8">
+        <h2 class="text-4xl font-extrabold text-navy inline-flex items-end gap-3">Meet Your Guide <span class="block h-2 w-24 rounded-full bg-brand-500 translate-y-3"></span></h2>
+      </div>
+      <img src="https://astrovastuwithsunny.in/wp-content/uploads/2025/09/Intro.png" alt="Acharya Sunny R. Dedya — Professional Vastu Consultant & Astrologer" class="w-full max-w-6xl mx-auto rounded-[28px] border border-[#E6E8EF] shadow-smooth" />
+    </div>
+  </section>
+
+  <!-- PROMISE / OUR APPROACH -->
+  <section id="promise" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-5">
+          <div class="relative rounded-[32px] shadow-smooth overflow-hidden">
+            <div class="bg-gradient-to-br from-[#0E1B3D] to-[#1F2A44] p-8 sm:p-10 text-white">
+              <div class="absolute inset-0 opacity-20 gridlines"></div>
+              <div class="relative flex items-center justify-center">
+                <div class="h-36 w-36 sm:h-44 sm:w-44 rounded-2xl bg-white/10 backdrop-blur grid place-items-center ring-1 ring-white/30">
+                  <span class="text-6xl">👍</span>
+                </div>
+              </div>
+            </div>
+            <div class="bg-[#3B82F6] text-white font-extrabold text-2xl sm:text-3xl tracking-wide px-6 py-4 text-center">OUR PROMISE</div>
+          </div>
+        </div>
+        <div class="lg:col-span-7">
+          <h2 class="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight text-navy">Authentic, <span class="text-blue-600">proven</span>, practical</h2>
+          <div class="mt-8 space-y-8">
+            <div><div class="text-2xl font-extrabold text-blue-600">High satisfaction & retention</div></div>
+            <div><div class="text-2xl font-extrabold text-blue-600">Support when you need it</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING PLANS (5-card) -->
+  <section id="pricing" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-extrabold text-navy inline-flex items-end gap-3">Pricing Plans <span class="block h-2 w-24 rounded-full bg-brand-500 translate-y-3"></span></h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 lg:gap-8">
+        <div class="rounded-[28px] bg-white border border-[#E6E8EF] shadow-smooth overflow-hidden">
+          <div class="p-6 sm:p-8 text-center">
+            <div class="h-10 w-10 mx-auto mb-4 rounded-xl bg-butter grid place-items-center">🗺️</div>
+            <h3 class="text-2xl font-extrabold">Digital Map Drafting</h3>
+            <p class="text-slatey mt-1">≤1000 sq ft; ₹3/sq ft beyond</p>
+            <div class="mt-6 text-4xl font-extrabold">₹2,999<span class="text-2xl align-top">/‑</span></div>
+            <ul class="mt-6 space-y-3 text-left max-w-sm mx-auto">
+              <li>✅ To‑scale, true‑direction map</li>
+              <li>✅ Delivered within 48 hours</li>
+              <li>✅ Includes Advanced Devta Gridding</li>
+            </ul>
+            <a href="https://wa.me/?text=Hi%20Sunny%2C%20I%27d%20like%20to%20book%20a%20Vastu%20consultation." target="_blank" rel="noopener" class="mt-8 inline-flex w-full sm:w-auto justify-center px-6 py-3 rounded-2xl bg-[#25D366] text-[#071B2F] font-semibold">Book Consultation</a>
+          </div>
+        </div>
+        <div class="rounded-[28px] bg-white border border-[#E6E8EF] shadow-smooth overflow-hidden">
+          <div class="p-6 sm:p-8 text-center">
+            <div class="h-10 w-10 mx-auto mb-4 rounded-xl bg-sky grid place-items-center">🔹</div>
+            <h3 class="text-2xl font-extrabold">Basic Vastu Gridding</h3>
+            <p class="text-slatey mt-1">Per Floor</p>
+            <div class="mt-6 text-4xl font-extrabold">₹499<span class="text-2xl align-top">/‑</span></div>
+            <ul class="mt-6 space-y-3 text-left max-w-sm mx-auto">
+              <li>✅ Accurate Brahmasthan & true‑degree</li>
+              <li>✅ 8/16/32 zone mapping</li>
+              <li>✅ Elemental zone overlay</li>
+            </ul>
+            <a href="https://rzp.io/rzp/zteFZeO" target="_blank" rel="noopener" class="mt-8 inline-flex w-full sm:w-auto justify-center px-6 py-3 rounded-2xl bg-[#3B82F6] text-white font-semibold">Pay Now</a>
+            <p class="mt-3 text-xs text-slatey">Secure checkout via Razorpay</p>
+          </div>
+        </div>
+        <div class="relative rounded-[28px] bg-gradient-to-b from-[#0F1E3E] to-[#0B1530] text-white border border-[#0F1E3E] shadow-smooth overflow-hidden">
+          <div class="absolute -right-12 top-5 rotate-45 bg-[#3B82F6] text-white text-sm font-bold px-16 py-1 tracking-wide">BEST VALUE</div>
+          <div class="p-6 sm:p-8 text-center">
+            <div class="h-10 w-10 mx-auto mb-4 rounded-xl bg-white/10 grid place-items-center">⭐</div>
+            <h3 class="text-2xl font-extrabold">Advanced Devta Gridding</h3>
+            <p class="opacity-80 mt-1">Per Floor</p>
+            <div class="mt-6 text-4xl font-extrabold">₹999<span class="text-2xl align-top">/‑</span></div>
+            <ul class="mt-6 space-y-3 text-left max-w-sm mx-auto">
+              <li>✅ Everything in Basic</li>
+              <li>✅ 45 Devta pada + bar chart</li>
+              <li>✅ Tri‑Dosha mapping & body‑part analysis</li>
+              <li>✅ Compass & Nakshatra integration</li>
+            </ul>
+            <a href="https://rzp.io/rzp/MEMawjzP" target="_blank" rel="noopener" class="mt-8 inline-flex w-full sm:w-auto justify-center px-6 py-3 rounded-2xl bg-[#3B82F6] text-white font-semibold">Pay Now</a>
+            <p class="mt-3 text-xs text-white/80">Secure checkout via Razorpay</p>
+          </div>
+        </div>
+        <div class="rounded-[28px] bg-white border border-[#E6E8EF] shadow-smooth overflow-hidden">
+          <div class="p-6 sm:p-8 text-center">
+            <div class="h-10 w-10 mx-auto mb-4 rounded-xl bg-butter grid place-items-center">📑</div>
+            <h3 class="text-2xl font-extrabold">Vastu Analysis Report</h3>
+            <p class="text-slatey mt-1">Per Floor</p>
+            <div class="mt-6 text-4xl font-extrabold">₹4,999<span class="text-2xl align-top">/‑</span></div>
+            <ul class="mt-6 space-y-3 text-left max-w-sm mx-auto">
+              <li>✅ Complete diagnosis across life areas</li>
+              <li>✅ Entrances, toilets, kitchens</li>
+              <li>✅ Balancing & cleansing remedies</li>
+              <li>✅ 12 essentials + 10 key instructions</li>
+            </ul>
+            <a href="https://rzp.io/rzp/9Q8qcBm9" target="_blank" rel="noopener" class="mt-8 inline-flex w-full sm:w-auto justify-center px-6 py-3 rounded-2xl bg-[#3B82F6] text-white font-semibold">Pay Now</a>
+            <p class="mt-3 text-xs text-slatey">Secure checkout via Razorpay</p>
+          </div>
+        </div>
+        <div class="rounded-[28px] bg-white border border-[#E6E8EF] shadow-smooth overflow-hidden">
+          <div class="p-6 sm:p-8 text-center">
+            <div class="h-10 w-10 mx-auto mb-4 rounded-xl bg-sky grid place-items-center">📝</div>
+            <h3 class="text-2xl font-extrabold">Vastu Report + Remedies</h3>
+            <p class="text-slatey mt-1">Per Floor</p>
+            <div class="mt-6 text-4xl font-extrabold">₹7,499<span class="text-2xl align-top">/‑</span></div>
+            <ul class="mt-6 space-y-3 text-left max-w-sm mx-auto">
+              <li>✅ Full diagnosis + remedies</li>
+              <li>✅ DIY kit list & instructions</li>
+              <li>✅ Bonus Zoom walkthrough</li>
+              <li>✅ 100% practical & non‑demolition</li>
+            </ul>
+            <a href="https://rzp.io/rzp/xaURZaXr" target="_blank" rel="noopener" class="mt-8 inline-flex w-full sm:w-auto justify-center px-6 py-3 rounded-2xl bg-[#3B82F6] text-white font-semibold">Pay Now</a>
+            <p class="mt-3 text-xs text-slatey">Secure checkout via Razorpay</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-5">
+          <h2 class="text-4xl sm:text-5xl font-extrabold text-navy leading-tight">Frequently Asked Questions</h2>
+          <div class="h-2 w-28 bg-brand-500 rounded-full mt-4"></div>
+        </div>
+        <div class="lg:col-span-7 space-y-4" id="faq-root">
+          <article class="rounded-[22px] border border-[#E6E8EF] bg-butter" data-faq>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 faq-head" aria-expanded="true">
+              <div class="flex items-center gap-3 text-left"><span class="text-xl">⏳</span><h3 class="text-lg sm:text-xl font-extrabold">How long does it take to get my map/report?</h3></div>
+              <span class="text-2xl leading-none faq-icon">×</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 faq-body">
+              <p class="text-slatey">Drafting for Digital Map typically completes within <strong>24–48 hours</strong>. Analysis reports may take <strong>3–5 working days</strong> depending on scope and floors.</p>
+            </div>
+          </article>
+          <article class="rounded-[22px] border border-[#E6E8EF] bg-white" data-faq>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 faq-head" aria-expanded="false">
+              <div class="flex items-center gap-3 text-left"><span class="text-xl">🗣️</span><h3 class="text-lg sm:text-xl font-extrabold">Which language are consultations in?</h3></div>
+              <span class="text-2xl leading-none faq-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden faq-body">
+              <p class="text-slatey">Sessions and documents are provided in <strong>English</strong>.</p>
+            </div>
+          </article>
+          <article class="rounded-[22px] border border-[#E6E8EF] bg-white" data-faq>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 faq-head" aria-expanded="false">
+              <div class="flex items-center gap-3 text-left"><span class="text-xl">📐</span><h3 class="text-lg sm:text-xl font-extrabold">What do I need to start?</h3></div>
+              <span class="text-2xl leading-none faq-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden faq-body">
+              <p class="text-slatey">A rough sketch with room sizes, <strong>true‑north reference</strong> (or Google pin), and floor count. We'll guide you if anything is missing.</p>
+            </div>
+          </article>
+          <article class="rounded-[22px] border border-[#E6E8EF] bg-white" data-faq>
+            <button class="w-full p-6 sm:p-7 flex items-start justify-between gap-6 faq-head" aria-expanded="false">
+              <div class="flex items-center gap-3 text-left"><span class="text-xl">🏠</span><h3 class="text-lg sm:text-xl font-extrabold">Do you need a site visit?</h3></div>
+              <span class="text-2xl leading-none faq-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden faq-body">
+              <p class="text-slatey">Not necessarily. Our process is designed to work <strong>fully online</strong> with accurate inputs. If an on‑site visit is essential, we’ll discuss options.</p>
+            </div>
+          </article>
+          <article class="rounded-[22px] border border-[#E6E8EF] bg-white" data-faq>
+            <button class="w-full p-6 sm:px-7 flex items-start justify-between gap-6 faq-head" aria-expanded="false">
+              <div class="flex items-center gap-3 text-left"><span class="text-xl">💳</span><h3 class="text-lg sm:text-xl font-extrabold">What about refunds or payment issues?</h3></div>
+              <span class="text-2xl leading-none faq-icon">+</span>
+            </button>
+            <div class="px-6 sm:px-7 pb-6 hidden faq-body">
+              <p class="text-slatey">Payments are processed securely via <strong>Razorpay</strong>. If you face duplicate charges or need help, reply to your confirmation email and we’ll resolve it promptly.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#071B2F] text-white py-12">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <img src="https://astrovastuwithsunny.in/wp-content/uploads/2025/06/Sunny_Logo-removebg-preview.png" alt="AstroVastu with Sunny" class="h-16 sm:h-20 w-auto object-contain drop-shadow-xl brightness-150 contrast-150 saturate-150 bg-white rounded-2xl p-2 ring-2 ring-white/80 shadow"/>
+            <span class="sr-only">Astro Vastu with Sunny</span>
+          </div>
+          <p class="text-white/70 text-sm max-w-xs">Practical, non‑demolition Vastu guidance for every family. True‑north maps • precise gridding • step‑by‑step remedies.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-3">Quick Links</h4>
+          <ul class="space-y-2 text-sm text-white/80">
+            <li><a href="#solutions" class="hover:underline">Solutions</a></li>
+            <li><a href="#pricing" class="hover:underline">Pricing</a></li>
+            <li><a href="#faq" class="hover:underline">FAQs</a></li>
+            <li><a href="#guide" class="hover:underline">Meet Your Guide</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-3">Contact</h4>
+          <ul class="space-y-2 text-sm text-white/80">
+            <li>Email: <a href="mailto:sunnyrajeshdedhia@gmail.com" class="hover:underline">sunnyrajeshdedhia@gmail.com</a></li>
+            <li>
+              <a href="https://www.instagram.com/astrovastu_withsunny/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 hover:underline">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"><path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm0 2h10c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3 3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3zm11 1a1 1 0 100 2 1 1 0 000-2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z"/></svg>
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-white/10 text-sm text-white/70 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div>© Astro Vastu With Sunny <span id="yr"></span>All rights reserved.</div>
+        <div class="flex items-center gap-4">
+          <a href="#" class="hover:underline">Privacy</a>
+          <a href="#" class="hover:underline">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drop‑in script to force ALL WhatsApp CTAs to use +91 9274553455 -->
+  <script>
+  (()=>{
+    const PHONE = '919274553455'; // +91 9274553455
+    const SELECTOR = 'a[href*="wa.me"], a[href*="api.whatsapp.com"]';
+
+    function rewrite(link){
+      try{
+        const url = new URL(link.getAttribute('href'), location.href);
+        let text = url.searchParams.get('text') || "Hi Sunny, I'd like to book a Vastu consultation.";
+        url.protocol = 'https:';
+        url.hostname = 'wa.me';
+        url.pathname = '/' + PHONE;
+        url.search = text ? ('?text=' + encodeURIComponent(text)) : '';
+        link.setAttribute('href', url.toString());
+        link.setAttribute('target','_blank');
+        link.setAttribute('rel','noopener');
+      }catch(e){ /* noop */ }
+    }
+
+    function apply(){ document.querySelectorAll(SELECTOR).forEach(rewrite); }
+
+    if (document.readyState === 'loading'){
+      document.addEventListener('DOMContentLoaded', apply, { once:true });
+    } else { apply(); }
+
+    const mo = new MutationObserver((m)=>{
+      for(const rec of m){
+        rec.addedNodes && rec.addedNodes.forEach(node=>{
+          if(node.nodeType===1){
+            if(node.matches?.(SELECTOR)) rewrite(node);
+            node.querySelectorAll?.(SELECTOR).forEach(rewrite);
+          }
+        });
+      }
+    });
+    mo.observe(document.documentElement, { childList:true, subtree:true });
+  })();
+  </script>
+
+  <script>
+    // Accordion (solutions)
+    document.querySelectorAll('[data-acc]').forEach((card, idx)=>{
+      const head=card.querySelector('.acc-head');
+      const body=card.querySelector('.acc-body');
+      const icon=card.querySelector('.acc-icon');
+      if(idx!==0){ body.classList.add('hidden'); head.setAttribute('aria-expanded','false'); icon.textContent='+'; }
+      head.addEventListener('click',()=>{
+        const isOpen = head.getAttribute('aria-expanded')==='true';
+        document.querySelectorAll('[data-acc]').forEach(c=>{
+          c.querySelector('.acc-head').setAttribute('aria-expanded','false');
+          c.querySelector('.acc-body').classList.add('hidden');
+          c.querySelector('.acc-icon').textContent='+';
+        });
+        if(!isOpen){ head.setAttribute('aria-expanded','true'); body.classList.remove('hidden'); icon.textContent='×'; }
+      });
+    });
+
+    // FAQ accordion
+    document.querySelectorAll('[data-faq]').forEach((card, idx)=>{
+      const head=card.querySelector('.faq-head');
+      const body=card.querySelector('.faq-body');
+      const icon=card.querySelector('.faq-icon');
+      if(idx!==0){ body.classList.add('hidden'); head.setAttribute('aria-expanded','false'); icon.textContent='+'; }
+      head.addEventListener('click',()=>{
+        const isOpen = head.getAttribute('aria-expanded')==='true';
+        document.querySelectorAll('[data-faq]').forEach(c=>{
+          c.querySelector('.faq-head').setAttribute('aria-expanded','false');
+          c.querySelector('.faq-body').classList.add('hidden');
+          c.querySelector('.faq-icon').textContent='+';
+        });
+        if(!isOpen){ head.setAttribute('aria-expanded','true'); body.classList.remove('hidden'); icon.textContent='×'; }
+      });
+    });
+
+    // Footer year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
